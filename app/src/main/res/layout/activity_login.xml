@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    >
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"
+      android:elegantTextHeight="true"
+      android:lineSpacingExtra="12sp"
+      android:text="@string/authorization"
+      android:textColor="@color/textColor"
+      android:textSize="27dp"
+      />
+
+
+  <EditText
+      android:id="@+id/phonenumber"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/title"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="36dp"
+      android:layout_marginRight="36dp"
+      android:layout_marginTop="45dp"
+      android:background="@drawable/login_box"
+      android:drawableLeft="@drawable/shape_1"
+      android:drawablePadding="17dp"
+      android:gravity="center_vertical"
+      android:hint="@string/login"
+      android:imeOptions="actionNext"
+      android:inputType="phone"
+      android:maxLines="1"
+      android:paddingBottom="19dp"
+      android:paddingLeft="19dp"
+      android:paddingRight="19dp"
+      android:paddingTop="16dp"
+      android:singleLine="true"
+      android:textColorHint="@color/hintColor"
+      android:textSize="16sp"
+      />
+
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/phonenumber"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="36dp"
+      android:layout_marginRight="36dp"
+      android:layout_marginTop="15dp"
+      android:background="@drawable/login_box"
+      android:drawableLeft="@drawable/shape_2"
+      android:drawablePadding="17dp"
+      android:gravity="center_vertical"
+      android:hint="@string/password"
+      android:imeOptions="actionDone"
+      android:inputType="textPassword"
+      android:lines="1"
+      android:maxLength="8"
+      android:maxLines="1"
+      android:paddingBottom="19dp"
+      android:paddingLeft="19dp"
+      android:paddingRight="19dp"
+      android:paddingTop="16dp"
+      android:textColorHint="@color/hintColor"
+      android:textSize="16sp"
+      />
+
+
+  <Button
+      android:id="@+id/enter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/password"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/login_bnt_box"
+      android:gravity="center"
+      android:minHeight="55dp"
+      android:minWidth="220dp"
+      android:text="@string/enter"
+      android:textColor="@color/white_milk"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      />
+</RelativeLayout>

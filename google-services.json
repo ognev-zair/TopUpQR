@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165281244474",
+    "firebase_url": "https://mombasa-e5cd6.firebaseio.com",
+    "project_id": "mombasa-e5cd6",
+    "storage_bucket": "mombasa-e5cd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165281244474:android:a85e53b08f5085a2",
+        "android_client_info": {
+          "package_name": "com.ognev.topup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165281244474-ua5n4qgustfdntiatplhlq4v00uk31u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ognev.topup",
+            "certificate_hash": "170fb1b7159820a8c0ec8e51494f4eaa1e9b63f6"
+          }
+        },
+        {
+          "client_id": "165281244474-7ls80peu4ud48092l6ik85uj8k4vq3j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrDY_N5WWPXA3oMq9Dw6foH7_6KhmNFj0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165281244474-7ls80peu4ud48092l6ik85uj8k4vq3j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

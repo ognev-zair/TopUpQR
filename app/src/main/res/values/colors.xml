@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#43a5d8</color>
+  <color name="colorPrimaryDark">#436dd8</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="main_blue">#3fa2f9</color>
+  <color name="black">#000000</color>
+  <color name="white">#ffffff</color>
+  <color name="white_milk">#fefefe</color>
+  <color name="background">#f3f6f8</color>
+  <color name="background_alert">#3a4f5e</color>
+  <color name="textColor">#5b6d86</color>
+  <color name="numColor">#718299</color>
+  <color name="hintColor">#abb6c6</color>
+  <color name="lineColor">#d7dee7</color>
+  <color name="blue">#43a5d8</color>
+  <color name="blueDark">#436dd8</color>
+</resources>
